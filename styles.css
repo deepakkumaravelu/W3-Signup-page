@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 #logo,#cross{
     width: 38px;
@@ -12,4 +13,18 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(237, 237, 237);
+    margin: 0px 510px;
+    border-radius: 18px;
+    padding: 48px;
+}
+.signup{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    font-size: 23.9px;
 }
