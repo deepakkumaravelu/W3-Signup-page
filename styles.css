@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+}
+#logo,#cross{
+    width: 38px;
+    height: 35px;
+}
+
+.head-div{
+    padding: 0px 40px;
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
