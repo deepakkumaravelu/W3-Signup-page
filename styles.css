@@ -2,11 +2,14 @@ body{
     margin: 0px;
     font-family: 'Noto Sans JP', sans-serif;
 }
-#logo,#cross{
+#logo{
     width: 38px;
     height: 35px;
 }
-
+#cross{
+    width: 35px;
+    height: 35px;
+}
 .head-div{
     padding: 0px 40px;
     margin: 15px 0px;
@@ -18,13 +21,101 @@ body{
     display: flex;
     justify-content: center;
     border: 2px solid rgb(237, 237, 237);
-    margin: 0px 510px;
+    margin: 0px 540px;
     border-radius: 18px;
     padding: 48px;
+    flex-direction:column;
 }
 .signup{
     margin: 0px;
     padding: 0px;
     width: 100%;
     font-size: 23.9px;
+}
+.label-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    padding-top: 12px;
+}
+.label-div{
+    font-weight: bold;
+}
+.login{
+    color: rgb(0, 190, 0);
+    font-weight: bold;
+}
+.input-box{
+    display: flex;
+    border: 1px solid rgb(226, 226, 226);
+    padding: 20px;
+    justify-content: center;
+    width: 90%;
+    border-radius: 5px;
+}
+.label-container-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    padding-top: 30px;
+}
+.eyeicon{
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+}
+.list-div{
+  display: flex;
+  gap: 35px;
+}
+.unordered{
+    width: 100%;
+    padding-left: 0px;
+    list-style: none;
+    font-size: 12px;
+}
+ul li::before{
+    content: "\2022";
+    color: rgb(0, 182, 39);
+    font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+    width: 20px;      
+}
+
+.checkbox-div{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 13.5px;
+}
+.checkbox {
+    margin: 0;
+    height: 13px;
+}
+.checkbox:checked{
+    color: white;
+    accent-color: rgb(0, 146, 37);
+}
+.checkbox:checked:hover {
+    accent-color: rgb(0, 155, 39);
+    outline: 2px solid rgb(0, 155, 39,0.5);
+    outline-offset: 0.8px;
+}
+.signup-btn{
+    margin-top: 10px;
+}
+.signup-btn1{
+    width: 380px;
+    height: 50px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 17px;
+    border-radius: 45px;
+    color:  rgb(255, 255, 255);
+    width: 100%;
+    background-color:  #04aa6d;
+    border: 1px solid  #04aa6d;
+    font-weight: 600;
 }

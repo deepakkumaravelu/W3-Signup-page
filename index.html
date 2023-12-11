@@ -1,26 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>W3 schools</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-  </head>
-  <body>
-    <div class="main-div">
-      <div class="head-div">
-        <img id="logo" src="W3.png" />
-        <img id="cross" src="cross.png" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>W3 schools</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <div class="main-div">
+    <div class="head-div">
+      <img id="logo" src="W3.png" />
+      <img id="cross" src="cross.png" />
+    </div>
+    <div class="form-container">
+      <h1 class="signup">Sign up</h1>
+      <div class="label-container">
+        <label class="label-div">Email</label>
+        <p>Already have an account? <a class="login">Log in</a></p>
       </div>
-      <div class="form-container">
-        <h1 class="signup">Sign up</h1>
+      <div>
+        <input type="email" class="input-box" />
+      </div>
+      <div class="label-container-1">
+        <label class="label-div">Password</label>
+        <p><img src="eye.png" class="eyeicon" /> Show</p>
+      </div>
+      <div>
+        <input type="password" class="input-box" />
+      </div>
+      <div class="list-div">
+        <div class="list-div-1">
+          <ul class="unordered">
+            <li>One lowercase character</li>
+            <li>One uppercase character</li>
+            <li>One number</li>
+        </div>
+        <div class="list-div-2">
+          <ul class="unordered">
+            <li>One special character</li>
+            <li>8 characters minimum</li>
+          </ul>
+        </div>
+      </div>
+      <div class="checkbox-div">
+        <input type="checkbox" class="checkbox"/>
+        <p>Email me with news and updates</p>
+      </div>
+      <div class="signup-btn">
+        <button class="signup-btn1">Sign up for free</button>
       </div>
     </div>
-  </body>
+
+  </div>
+</body>
+
 </html>
